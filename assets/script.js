@@ -2,29 +2,15 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-var timeDisplayEl = $('#time-display');
+var todayDate = moment().format('dddd, MMM Do YYYY');
+$("#currentDay").html(todayDate);
+
+$(document).ready(function() {
+  
+ });
 
 
-function displayTime() {
-  var rightNow = dayjs().format('MM DD, YYYY [at] hh:mm:ss a');
-  timeDisplayEl.text(rightNow);
-}
-
-function readProjectsFromStorage() {
-  var projects = localStorage.getItem('projects');
-  if (projects) {
-    projects = JSON.parse(projects);
-  } else {
-    projects = [];
-  }
-  return projects;
-}
-
-/*$(document).ready(function() { 
-  $("button").click(function() {
-    $("p").wrapAll("<div></div>");
-  });
-});*/
+//document.getElementById("#time-block").addEventListener("click", displayDate);
 
 //$(function () {
     // TODO: Add a listener for click events on the save button. This code should
@@ -45,5 +31,3 @@ function readProjectsFromStorage() {
     // attribute of each time-block be used to do this?
     //
     // TODO: Add code to display the current date in the header of the page.
-  
-  
