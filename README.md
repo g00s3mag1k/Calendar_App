@@ -31,3 +31,7 @@ cdnjs library: https://cdnjs.com/libraries/moment.js/2.29.4
 W3schools jQuery Tutorial: https://www.w3schools.com/js/js_jquery_selectors.asp
 
 Youtube: https://www.youtube.com/watch?v=veL0_Rb97dE
+
+## License
+
+Please refer to the LICENSE in the repo.
