@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-
   }
   
   textarea {
@@ -13,7 +12,13 @@ body {
     padding: 10px;
   }
 
-
+  .box {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
   
   .description {
     white-space: pre-wrap;
@@ -21,13 +26,12 @@ body {
   
   .time-block {
     border-radius: 15px;
-
+    text-align: center;
   }
   
   .row {
     border-top: 1px solid white;
-
-    
+    white-space: pre-wrap;
   }
   
   .hour {
